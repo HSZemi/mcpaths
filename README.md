@@ -19,10 +19,14 @@ for instance, an active portal or a path.
 Setup
 -----
 Initialize mcpaths by executing initialize.sh once:
-```./initialize.sh```
+```
+./initialize.sh
+```
 
 This will just execute the following command:
-```git clone https://github.com/mcedit/pymclevel.git```
+```
+git clone https://github.com/mcedit/pymclevel.git
+```
 
 pymclevel is required for the coordinate extraction. You won't be able to run getcoordinates.py 
 without pymclevel.
@@ -31,7 +35,9 @@ without pymclevel.
 Usage
 -----
 First call getcoordinates.py on a level.dat file in order to extract the coordinates of the relevant blocks:
-```./getcoordinates.py path/to/minecraft/world/level.dat```
+```
+./getcoordinates.py path/to/minecraft/world/level.dat
+```
 
 This will generate a bunch of files in your mcpaths directory:
   * fortresses.txt
@@ -40,7 +46,9 @@ This will generate a bunch of files in your mcpaths directory:
   * stones.txt
 
 Second, call makemap.py in order to create the svg map in the output directory:
-```./makemap.py```
+```
+./makemap.py
+```
 
 The map will be generated as map.svg in the output directory and can be viewed with any svg viewer or in
 the html page provided.
