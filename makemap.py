@@ -16,9 +16,9 @@ portalfile = "portals.txt"
 svg_output = "output/map.svg"
 
 fortresscolor = "#720d0d"
-stonecolor = "#646464"
-railcolor = "#642105"
-portalcolor = "#240032"
+stonecolor = "#4d4d4d"
+railcolor = "#f6ff00"
+portalcolor = "#161637"
 
 
 fortresses = []
