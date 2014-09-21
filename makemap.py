@@ -43,10 +43,8 @@ svgheadtemplate = '''<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 svgtailtemplate = '''</svg>'''
 
 svggroupheadtemplate = '''<g
-     inkscape:groupmode="layer"
      id="{0}"
-     style="display:inline"
-     inkscape:label="{0}">
+     style="display:inline">
 '''
 
 svggrouptailtemplate = '''</g>
