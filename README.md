@@ -56,6 +56,9 @@ the html page provided.
 Legend
 ------
 Red: Nether Fortress
+
 Gray: Stone
+
 Yellow: Rails
+
 Purple: Nether Portals
