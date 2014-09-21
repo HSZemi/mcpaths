@@ -52,3 +52,10 @@ Second, call makemap.py in order to create the svg map in the output directory:
 
 The map will be generated as map.svg in the output directory and can be viewed with any svg viewer or in
 the html page provided.
+
+Legend
+------
+Red: Nether Fortress
+Gray: Stone
+Yellow: Rails
+Purple: Nether Portals
